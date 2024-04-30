@@ -1,0 +1,54 @@
+.feedback-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .feedback-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .feedback-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .feedback-form input[type="text"],
+  .feedback-form input[type="email"],
+  .feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+  }
+  
+  .feedback-form textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+  }
+  
+  .feedback-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .feedback-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .feedback-form .error {
+    color: #ff0000;
+    margin-top: 10px;
+  }
+  
